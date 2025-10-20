@@ -4,7 +4,7 @@
 
 # [LSPatch]
 LSPatch:
-  repo: "LSPosed/LSPatch"
+  repo: "JingMatrix/LSPatch"
 # 选择使用的 LSPatch 项目（需在 releases 中提供 .jar 文件）
 # JingMatrix 维护的 LSPatch 分支已适配 Android 15，若在高版本遇到兼容性问题可考虑使用
 # 将官方仓库 "LSPosed/LSPatch" 更改为 "JingMatrix/LSPatch" 即可（使用该分支产生的后果请自负）
@@ -14,9 +14,9 @@ modules:
   # --- 预设模块 ---
   # 将值设为 true 来启用模块，设为 false 则禁用
   QAuxiliary: true
-  XAutoDaily: true
+  XAutoDaily: false
   TSBattery: true
-  QQCleaner: false
+  QQCleaner: true
 
   # --- 自定义模块 ---
   custom:
